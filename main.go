@@ -4,9 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"log"
 	"net/http"
-	"os"
 
 	"github.com/gin-gonic/gin"
 )
@@ -31,7 +29,6 @@ func main() {
 
 		for _, trucker := range truckers {
 			trucker.Banking = GetBanking(trucker.UUID)
-			os.Exit(0)
 		}
 
 		c.JSON(http.StatusOK, truckers)
@@ -58,15 +55,8 @@ func GetBanking(truckerUuid string) Banking {
 	body, _ := io.ReadAll(resp.Body)
 	defer resp.Body.Close()
 
-	fmt.Println(string(body))
-
 	var banking Banking
-	err := json.Unmarshal(body, &banking)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	fmt.Println(banking)
+	json.Unmarshal(body, &banking)
 
 	return banking
 }
