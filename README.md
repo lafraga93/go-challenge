@@ -1,7 +1,19 @@
 
 ### Desafio Golang
 
-##### Implementar um endpoint HTTP GET responsável por entregar uma lista de motoristas com seus respectivos dados bancários.
+##### O objetivo desse desafio é propor e realizar melhorias no programa exemplo contido nesse repositório.
+
+##### O programa é muito simples e basicamente expõe um endpoint GET responsável por entregar uma lista de motoristas com seus respectivos dados bancários. Os motoristas e seus respectivos dados bancários são obtidos a partir de outras apis.
+
+##### Na refatoração, serão considerados os seguintes pontos:
+
+* Boas práticas de codificação
+* Organização, arquitetura e design de código (camadas, arquitetura hexagonal, princípios SOLID, DRY, KISS, etc)
+* Tratamento de erros
+* Testes de unidade
+* Performance da aplicação
+
+##### Contratos e referência técnica:
 
 ###### Contrato de integração (response do endpoint criado):
 
