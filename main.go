@@ -22,6 +22,11 @@ type Banking struct {
 }
 
 func main() {
+	r := setupRouter()
+	r.Run()
+}
+
+func setupRouter() *gin.Engine {
 	r := gin.Default()
 
 	r.GET("/truckers", func(c *gin.Context) {
@@ -34,7 +39,7 @@ func main() {
 		c.JSON(http.StatusOK, truckers)
 	})
 
-	r.Run()
+	return r
 }
 
 func GetTruckers() []*Trucker {
