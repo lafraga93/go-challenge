@@ -8,7 +8,7 @@
 ##### Na refatoração, serão considerados os seguintes pontos:
 
 * Boas práticas de codificação
-* Organização, arquitetura e design de código (camadas, arquitetura hexagonal, princípios SOLID, DRY, KISS, etc)
+* Organização, arquitetura e design de código ([arquitetura limpa](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html), [princípios SOLID](https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design), [DRY](https://thevaluable.dev/dry-principle-cost-benefit-example/), [KISS](https://dev.to/kwereutosu/the-k-i-s-s-principle-in-programming-1jfg), [YAGNI](https://martinfowler.com/bliki/Yagni.html), etc)
 * Tratamento de erros
 * Testes de unidade
 * Performance da aplicação
