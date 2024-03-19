@@ -3,7 +3,7 @@
 
 ##### O objetivo desse desafio é propor e realizar melhorias no programa exemplo contido nesse repositório.
 
-##### O programa é muito simples e basicamente expõe um endpoint GET responsável por entregar uma lista de motoristas com seus respectivos dados bancários. Os motoristas e seus respectivos dados bancários são obtidos a partir de outras apis.
+##### O programa é muito simples e basicamente expõe um endpoint GET responsável por entregar uma lista de motoristas com seus respectivos dados bancários, dados esses que são obtidos a partir de outras apis.
 
 ##### Na refatoração, serão considerados os seguintes pontos:
 
